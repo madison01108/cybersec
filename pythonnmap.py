@@ -2,7 +2,7 @@ import nmap
 
 #instance of nmap
 
-nm = nmap.portscanner()
+nm = nmap.PortScanner()
 
 #2 targets
 #nmap.org ip address for us to test and use for general public 
