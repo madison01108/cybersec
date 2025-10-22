@@ -9,7 +9,7 @@ nm = nmap.PortScanner()
 target = "scanme.nmap.org"
 options = "-sV -sC scan_results"
  
-nm.scan(target, argument = options)
+nm.scan(target, arguments = options)
 
 for host in nm.all_hosts():
     print("Host: %s (%s)" % (host, nm[host].hostname()))
